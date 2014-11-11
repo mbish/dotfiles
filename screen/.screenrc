@@ -1,0 +1,9 @@
+defscrollback 5000
+vbell off
+startup_message off
+
+backtick 1 1 1 sh -c "date +%Z"
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[%{G}%H Load:%l%{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%d/%m %{G}%C%A %1`]'
+termcapinfo xterm|xterms|xs|rxvt ti@:te@
