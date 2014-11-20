@@ -16,3 +16,7 @@ stow/configure: stow/configure.ac
 
 stow/configure.ac:
 	git submodule update --init --recursive
+
+.PHONY: keybindings
+keybindings:
+	xmodmap X/.Xmodmap
