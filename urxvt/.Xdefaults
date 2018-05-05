@@ -47,4 +47,4 @@ URxvt*.shading: 160
 URxvt.fading    40
 
 # good font. May not be installed
- URxvt.font: xft:Droid Sans Mono:bold:size=8
+# URxvt.font: xft:Droid Sans Mono:bold:size=12

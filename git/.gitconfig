@@ -1,3 +1,7 @@
 [user]
 	email = mbishop@barracuda.com
 	name = Mark Bishop
+[merge]
+	tool = meld
+[mergetool "meld"]
+	path = /usr/bin/meld
